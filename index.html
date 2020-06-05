@@ -4,34 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Bio</title>
 </head>
 
 <body>
-    <h1>Student Bio</h1>
     <style>
         body {
-            background-color: darkgrey;
+            background-color: whitesmoke;
         }
 
         h2 {
-            color: cyan;
+            color: black;
+            font-weight: bolder;
+            font-size: xx-large;
         }
 
         h3 {
-            color: darkgoldenrod;
+            color: black;
+            font-weight: bolder;
+            font-size: x-large;
         }
 
-        .extraLarge {
-            font-size: larger;
+        #Name {
+            font-size: x-large;
+        }
+
+        .TextWrapRight {
+            float: left;
+            margin-right: 10px;
+        }
+
+        p {
+            display: block;
+            margin-right: 10cm;
+            white-space: pre-line
+        }
+
+        .FarRight {
+            float: left;
+
+        }
+
+        .FarRightMore {
+            float: right;
+            padding-right: 6%;
+
+        }
+
+        .header {
+            padding: 10px;
+            text-align: center;
+            background: black;
+            color: white;
+            font-size: 15px;
         }
     </style>
 
+    <div class="header">
+        <h1>Student Bio</h1>
+    </div>
+
     <div>
 
-        <h2 class=".exrtaLarge">Chandler</h2>
+        <h2 id="Name">Chandler Lowrance</h2>
 
-        <img height="400" width="400"
+        <img class="TextWrapRight" height="400" width="400"
             src="https://1wqhn31rem8k4b1wpl463ci2-wpengine.netdna-ssl.com/wp-content/uploads/bb-plugin/cache/student-boy-1-square.jpg">
 
 
@@ -39,7 +75,8 @@
 
 
 
-        <p>The student life is the best period of our life. It is the time during which boys and girls get their
+        <p class="FarRight">The student life is the best period of our life. It is the time during which boys and girls
+            get their
             education in different educational institutions. The life is free from all sorts’ anxieties. This is the
             time when a student gathers knowledge, builds up his character and prepares himself for the future life. His
             future life depends on how he spends his student life. If he makes the best use of his time, he will be
@@ -56,13 +93,13 @@
         <br>
 
 
-        <h3>Contact Information</h3>
+        <h3 class="FarRight">Contact Information</h3>
 
-        <ol>
+        <ul class="FarRightMore">
             <li><strong>Email:</strong> <a href="#">chandler.lowrance1@gmail.com</a></li>
             <li><strong>Github:</strong> <a href="#">Chandler8</a></li>
             <li><strong>Portfolio:</strong> <a href="#">Coming Soon!</a></li>
-        </ol>
+        </ul>
 
 
     </div>
